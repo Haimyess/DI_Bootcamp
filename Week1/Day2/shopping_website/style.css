@@ -1,0 +1,119 @@
+
+
+/* RESETS */
+/* RESETS */
+
+:root {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+    
+
+
+    /* colors */
+
+    --accent: rgb(13 185 140/1);
+    --nav-text: rgb(0 59 44);
+
+    /* Fonts */
+
+    --rg-font: 'Roboto', sans-serif;
+    
+}
+
+/* GENERAL STYLES */
+/* GENERAL STYLES */
+
+body {
+    font-family: var(--rg-font);
+    height: 100vh;
+    position: relative;
+    margin: 0%;
+}
+
+/* Banner */
+/* Banner */
+
+.banner {
+    width: 100vw;
+    background-color: var(--accent);
+
+}
+
+.banner-info {
+    
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0;
+}
+
+.banner-link {
+    font-size: 1.35rem;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+
+}
+.fa-carrot {
+    font-size: 4rem;
+    color: var(--nav-text);
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    color: var(--nav-text);
+    padding: 1rem 0;
+   
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header-wrapper {
+    width: 100vw;
+    border: 1px solid  #e3e3e3;
+}
+
+.item {
+    display: inline;
+    padding: 1rem;
+    
+}
+
+.p-item, 
+.log-item, 
+.sign-item {
+
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--rg-font);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--nav-text);
+    
+}
+
+.special-btn {
+    
+    padding: 1rem 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--accent);
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 1.55rem;
+}
+
+/* Footer */
+/* Footer */
+
+.gyngeee {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 2rem;
+}
