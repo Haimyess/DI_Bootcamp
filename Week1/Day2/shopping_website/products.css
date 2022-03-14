@@ -1,0 +1,70 @@
+/* Reset */
+/* Reset */
+
+:root {
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+
+    /* Variables */
+
+    /* Fonts */
+
+    --font: 'Roboto', sans-serif;
+
+
+    /* Colors */
+
+    --accent: rgb(13 185 140/1);
+    --nav-text: rgb(0 59 44);
+    --border:  #e3e3e3;
+    --bg: #F5F2E7;
+}
+
+/* General styles */
+/* General styles */
+
+body {
+    background-color: var(--bg);
+}
+
+/* Components */
+/* Components */
+
+.card {
+
+    width: 250px;
+    border: 1px solid var(--border) ;
+    position: relative;
+    top: 300px;
+    background-color: #fff;
+    text-align: center;
+
+
+}
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-info {
+    
+}
+
+.card-btn {
+    margin: 2rem 0;
+    padding: 1rem 0 ;
+    border-radius: 5px;
+    background-color: var(--accent);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: none;
+    font-family: var(--font);
+    width: 80%;
+    cursor: pointer;
+}
+
