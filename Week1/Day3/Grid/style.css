@@ -48,10 +48,13 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    /* grid-template-columns:  repeat(7,1fr);
-    grid-template-rows: repeat(11, 1fr); */
+    gap: 1rem;
+    grid-template-columns:  repeat(7,1fr);
+    grid-template-rows: repeat(11, 1fr);
 
-    grid-template: repeat(7,1fr), repeat(11, 1fr);
+    /* grid-template: repeat( 7,1fr) / repeat(11, 1fr); */
+
+    /* grid-template-columns: fit-content(200px); */
 
    
 }
@@ -79,11 +82,16 @@
     background-color: var(--lg) ;
     grid-column: span 3;
     grid-row:  span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    
 }
 
 #extra {
     background-color: var(--g);
-    grid-column: span 4;
+    grid-column:  4 / 8;
     grid-row: span  2;
 }
 
@@ -95,14 +103,41 @@
 
 #related-posts {
     background-color: var(--p);
-    grid-column: span 2;
+    grid-column: 6/8;
     grid-row: span 2;
     
 }
 
 #footer {
     background-color: var(--o);
-    grid-column: span 7;
+    grid-column: 1/ 8;
     grid-row: span 2;
 }
 
+/* .special {
+    width: 0%;
+} */
+
+.inner-div {
+    max-width: 50%;
+}
+
+
+/* Media Queries */
+/* Media Queries */
+/* Media Queries */
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+/* @media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { } */

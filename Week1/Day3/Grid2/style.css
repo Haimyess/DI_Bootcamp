@@ -1,0 +1,104 @@
+:root {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+/* WITH GRID TEMPLATE AREAS */
+/* WITH GRID TEMPLATE AREAS */
+/* WITH GRID TEMPLATE AREAS */
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+    text-align: center;
+    gap: 1em;
+    grid-template-areas: 
+    
+    "one one one"
+    "two three four"
+    "two five five"
+    "six six seven"
+    "eigth eigth eigth";
+
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+div > div {
+    border: 2px solid black;
+}
+
+.grid1 {
+    grid-area: one;
+    
+}
+.grid2 {
+    grid-area: two;
+
+}
+.grid3 {
+    grid-area: three;
+
+}
+.grid4 {
+    grid-area: four;
+
+}
+.grid5 {
+    grid-area: five;
+
+}
+.grid6 {
+    grid-area: six;
+
+}
+.grid7 {
+    grid-area: seven;
+
+}
+.grid8 {
+    grid-area: eigth;
+
+}
+
+/* WITH GRID LINES */
+/* WITH GRID LINES */
+/* WITH GRID LINES */
+
+
+
+
+
+/* .grid-container {
+    display: grid;
+    grid-template: repeat(5, 1fr) /  repeat(3, 1fr);
+    gap: 1em;
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+div > div {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.full-h {
+    grid-column: 1 / -1;
+
+}
+
+.grid1 {
+    grid-row: 1/2;
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.grid2 {
+    grid-row: span 2;
+} */
