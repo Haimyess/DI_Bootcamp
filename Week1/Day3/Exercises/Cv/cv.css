@@ -1,0 +1,75 @@
+* {
+    font-size: 10px;
+}
+
+
+
+
+.grid-container {
+    border: 2px solid black;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    /* margin: auto; */
+    display: grid;
+    grid-template:  .5fr 2fr 2.5fr 3fr  /1fr  2fr 5fr 1fr ;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+aside {
+    border: 2px solid red;
+    grid-column: 2/ 3;
+    grid-row: 2/-1;
+    background-color: #064663;
+}
+
+.experience {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border: 3px solid blue;
+    background-color: #064663;
+}
+
+.studies {
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+}
+
+.certi {
+    grid-column: 3/4;
+    grid-row: 4/5;
+
+}
+
+.grid-container > main {
+    padding: 0 15rem;
+}
+
+.fill1 {
+    background-color: #064663;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+    border: 2px solid orange;
+ 
+
+}
+
+.fill2 {
+    background-color: #064663;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.fill3 {
+    background-color: #064663;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
